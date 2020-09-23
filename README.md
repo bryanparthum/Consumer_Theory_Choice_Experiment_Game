@@ -6,6 +6,12 @@
 
 This repo contains some templates for creating and executing a discrete choice experiment as a tool for teaching consumer theory. During the first couple of weeks in a typical Intermediate Microeconomics course, students are introduced to the concepts of consumer choice and preferences. But how do those relate to a demand curve? Using tired examples of goods that they can purchase at a store does a pretty poor job of mapping preferences to demand. The price of a soda from the store is just the price of the soda—if a person wants a soda at a given price, they will buy it (put yourself in the shoes of the student, preferences are still pretty foreign and closely related to having or not having money for something). Having students trace a demand curve for this type of "market" good is pretty boring (speaking from experience). Introducing the concept of "nonmarket" goods (i.e. things you cannot buy at the store) helps to abstract away from retail prices where people are simply facing given prices. Cue the discrete choice experiment! 
 
+## Learning Outcomes
+
+1. Consumer theory: choice, preferences, transitivity
+2. Marginal utility and marginal rates of substitution
+4. WTP curves and distributions
+
 ## Workflow
 
 The general workflow goes as follows: 
@@ -21,28 +27,27 @@ The general workflow goes as follows:
 
 ## Generate Incomes 
 
-This is done using the Stata script `1_generate_incomes.do`. Depending on which platform you use for your class (Blackboard, etc.), you will need to import your roster differently. I have provided an example roster `store\student_roster.xlsx`. This is a typical roster exported from Blackboard, but adjust as needed to your input data. This script randomly assigns incomes to students using a modified beta distribution (trying to mimic real-world income distributions, which makes for a fun side conversation). Some students are rich, some are poor. Their choices (and subsequent WTP) should reflect this. The script also generates the necessary contact information (email) and external data (income) that will be read by Qualtrics. 
+Generating incomes for your students can be done using the Stata script `1_generate_incomes.do`. Depending on which platform you use for your class (Blackboard, etc.), you will need to import your roster differently. I have provided an example roster `store\student_roster.xlsx`. This is a typical roster exported from Blackboard, but adjust as needed to your input data. This script randomly assigns incomes to students using a modified beta distribution (trying to mimic real-world income distributions, which makes for a fun side conversation). Some students are rich, some are poor. Their choices (and subsequent WTP) should reflect this. The script also generates the necessary contact information (email) and external data (income) that will be read by Qualtrics. 
 
 - Input: `student_roster.xlsx`
-- Output: `student_incomes.xlsx`
+- Output: `student_incomes.csv`
 
-## Statements
+## Online Choice Experiement
 
+Setting up the online choice experiment can be done at any time; however, when using Qualtrics, the `student_incomes.csv` file will be an input for the survey. As such, I have organized it to come second in this summary. The ordering and wording of the questions is outlined in `2_survey_questions.docx`. The introduction and post-survey questions are simply plain text. The choice questions themselves are in HTML and will call on the image of the choice question. For this example, I use AWS S3 as the host for the image, although this can be done using any hosting service. I have also included the file `survey.docx` where you can make changes to any piece of the survey, and export the pages as images. In turn, piping the new images (your new choice questions) into the qualtrics survey. 
 
+One thing to note is that the choice experiment provided in this example is not an 'efficient' design. Meaning, the attributes are not orthogonal. This is intentional. I have incorporated two concepts into the choice cards: 1) transitivity, and 2) strictly dominated alternatives. This allows the instructor to test if students were paying attention (and call the ones out who clearly didn't... just kidding, maybe), but also to reiterate axioms of choice and how they are play out in the real world. 
 
-## Cover Letter
+### Transitivity
 
-This folder contains one cover letter template. I chose to use the same template for all applications (academic, LA schools, federal, postdocs, and industry). Inside of this template I typically had one paragraph that would be a foundation for all letters. I then had a block section for each type of institution/agency that the letter would be written to. I found this to work well for me and all 130+ applications I submitted. You might find otherwise.
+There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex? A \succsim B \succsim C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say "7 students were not consistent with transitive preferences" or something of the like. 
 
-Many people will use a single template for *all* letters. They would then loop through a database of job listings and simply have a script replace the necessary fields. I realize this brings the marginal cost of an application to near zero. I am not a fan of this type of approach to a job search. I catered my letters to each institution, including faculty or colleagues that I would like to work with or projects that I am particularly excited about. This made the application process much longer, but much more personal. It worked well for me and I knew that I was deeply interested in every application I submitted. Find what works for you: either a shotgun approach—apply to everything—or the more piecewise approach of applying to only the jobs you are excited about.
+### Strictly Dominated Alternatives
 
-There is also varying advice on how long the cover letter should be. I went great lengths to make some letters a single page (one side of one page) and even went as far as making some 10pt font (*not* very kind to your reader, both ableist and ageist). I eventually became comfortable with two pages (two sides of one piece of paper), which allowed for both 12pt font and a more personalized letter to the committee. For most applications I would say two pages is more than fine. For some industry-type jobs or postdocs, you might keep it short, sweet, and direct. 
+Choice card number 3 includes the choice between scenario A and scenario B, where scenario B is strictly dominated by scenario A. It is perfectly rational for a student to choose "No Change" but the only policy scenario that would be rational is "Scenario A" as it includes attributes that are all more improved at a lower cost than scenario B. 
 
-## Job Spreadsheet
+Scenario A on choice card 1 and scenario B on choice card 2 are the same. Similarly, scenario B on choice card 1 and scenario A on choice card 4 are the same. Lastly,
 
-This is a spreadsheet that I created to help me keep track of job postings, closing dates, letters, etc. It is pretty self-explanatory, but here are a few tips. There are four worksheets (Jobs, Postdocs, Responses, and Data). I chose to keep full-time positions separate from postdocs, just for bookkeeping purposes. I also kept a worksheets for the responses in case there was additional information that was requested, or about the date and time of the interview. This way I wasn't frantically searching through emails to find something important, or even worse, missing an interview all together. 
-
-The `data (do not change)` worksheet is one that the other worksheets reference in their date column. This is how I color-code items that are approaching their deadline. The parameters can be changed. For example, if you want the entry to change to yellow when the due date is 7 days away, instead of the 14 as I have it set now, you would simply change cell A2 to `=TODAY()+7` instead of `=TODAY()+14`.  
 
 ## License
 
