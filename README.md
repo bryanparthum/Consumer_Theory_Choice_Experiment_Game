@@ -23,7 +23,7 @@ The general workflow goes as follows:
   - Link students to the online choice experiment (I use Qualtrics, and the cleaning scripts are set up to clean data exported from Qualtrics)
   - Export and clean data
   - Run regressions that estimate MWTP
-   - I do this in real time in class (it takes seconds to run) as it is also a good opportunity to introduce students to statistical software (after which many will come and ask for research assistant support, neat!) 
+    - I do this in real time in class (it takes seconds to run) as it is also a good opportunity to introduce students to statistical software (after which many will come and ask for research assistant support, neat!) 
 
 ## Generate Student Incomes 
 
