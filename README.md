@@ -40,7 +40,7 @@ One thing to note is that the choice experiment provided in this example is not 
 
 ### Transitivity
 
-There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsimB\succsimC" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say "7 students were not consistent with transitive preferences" or something of the like. 
+There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim B\succsim C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say "7 students were not consistent with transitive preferences" or something of the like. 
 
  ### Strictly Dominated Alternatives
 
