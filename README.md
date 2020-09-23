@@ -38,11 +38,11 @@ Setting up the online choice experiment can be done at any time; however, when u
 
 One thing to note is that the choice experiment provided in this example is not an 'efficient' design. Meaning, the attributes are not orthogonal. This is intentional. I have incorporated two concepts into the choice cards: 1) transitivity, and 2) strictly dominated alternatives. This allows the instructor to test if students were paying attention (and call the ones out who clearly didn't... just kidding, maybe), but also to reiterate axioms of choice and how they are play out in the real world. 
 
-### Transitivity
+  ### Transitivity
 
 There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex? A \succsim B \succsim C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say "7 students were not consistent with transitive preferences" or something of the like. 
 
-### Strictly Dominated Alternatives
+  ### Strictly Dominated Alternatives
 
 Choice card number 3 includes the choice between scenario A and scenario B, where scenario B is strictly dominated by scenario A. It is perfectly rational for a student to choose "No Change" but the only policy scenario that would be rational is "Scenario A" as it includes attributes that are all more improved at a lower cost than scenario B. 
 
