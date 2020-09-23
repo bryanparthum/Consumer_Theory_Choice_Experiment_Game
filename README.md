@@ -40,13 +40,16 @@ One thing to note is that the choice experiment provided in this example is not 
 
 ### Transitivity
 
-There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim%20B\succsim%20C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say "7 students were not consistent with transitive preferences" or something of the like. 
+There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim%20B\succsim%20C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say something along the lines of "seven student's chocies were not consistent with preferences exhibiting the property of transitivity."
 
  ### Strictly Dominated Alternatives
 
-Choice card number 3 includes the choice between scenario A and scenario B, where scenario B is strictly dominated by scenario A. It is perfectly rational for a student to choose "No Change" but the only policy scenario that would be rational is "Scenario A" as it includes attributes that are all more improved at a lower cost than scenario B. 
+Choice card number 3 includes the choice between scenario A and scenario B, where scenario B is strictly dominated by scenario A. It is perfectly rational for a student to choose "No Change" but the only policy scenario that would be rational is "Scenario A" as it includes attributes that are all more improved at a lower cost than "Scenario B". 
 
-Scenario A on choice card 1 and scenario B on choice card 2 are the same. Similarly, scenario B on choice card 1 and scenario A on choice card 4 are the same. Lastly,
+Moreover: 
+Preference bundle <img src="https://latex.codecogs.com/gif.latex?A="/> Scenario A on Choice Card 1 and Scenario B on Choice Card 2
+Preference bundle <img src="https://latex.codecogs.com/gif.latex?B="/> Scenario B on Choice Card 1 and Scenario A on Choice Card 4
+Preference bundle <img src="https://latex.codecogs.com/gif.latex?C="/> Scenario A on Choice Card 2 and Scenario B on Choice Card 4
 
 
 ## License
