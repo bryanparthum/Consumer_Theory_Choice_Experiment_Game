@@ -48,7 +48,9 @@ Choice card number 3 includes the choice between scenario A and scenario B, wher
 
 Moreover: 
 Preference bundle <img src="https://latex.codecogs.com/gif.latex?A="/> Scenario A on Choice Card 1 and Scenario B on Choice Card 2
+
 Preference bundle <img src="https://latex.codecogs.com/gif.latex?B="/> Scenario B on Choice Card 1 and Scenario A on Choice Card 4
+
 Preference bundle <img src="https://latex.codecogs.com/gif.latex?C="/> Scenario A on Choice Card 2 and Scenario B on Choice Card 4
 
 
