@@ -11,7 +11,7 @@ This repo contains some templates for creating and executing a discrete choice e
 The general workflow goes as follows: 
 
 - Introduce consumer theory and willingness to pay (WTP) curves
-  - This should include derivation of marginal utility and marginal rates of substitution. Setting the stage for MWTP as the ratio of two preference parameters: <img src="https://latex.codecogs.com/gif.latex?MWTP=\frac{\beta_{attribute}}{\beta_{cost}}" /> 
+  - This should include derivation of marginal utility and marginal rates of substitution. Setting the stage for MWTP as the ratio of two preference parameters: <img src="https://latex.codecogs.com/gif.latex?MWTP=\dfrac{\beta_{attribute}}{\beta_{cost}}" /> 
 - Using the templates in this game: 
   - Assign an annual household income to students (a budget constraint that is not correlated with their current ramen budget)
   - Link students to the online choice experiment (I use Qualtrics, and the cleaning scripts are set up to clean data exported from Qualtrics)
