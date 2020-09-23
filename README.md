@@ -4,27 +4,28 @@
 
 ## Overview
 
-This repo contains some templates for creating your Using Discrete Choice Experiments as a Tool for Teaching Consumer Theory: Intermediate Microeconomics
+This repo contains some templates for creating and executing a discrete choice experiment as a tool for teaching consumer theory. During the first couple of weeks in a typical Intermediate Microeconomics course, students are introduced to the concepts of consumer choice and preferences. But how do those relate to a demand curve? Using tired examples of goods that they can purchase at a store does a pretty poor job of mapping preferences to demand. The price of a soda from the store is just the price of the soda---if a person wants a soda at a given price, they will buy it (put yourself in the shoes of the student, preferences are still pretty foreign and closely related to having or not having money for something). Having students trace a demand curve for this type of "market" good is pretty boring (speaking from experience). Introducing the concept of "nonmarket" goods (i.e. things you cannot buy at the store) helps to abstract away from retail prices where people are simply facing given prices. Cue the discrete choice experiment! 
 
 ## Workflow
 
-I chose to have an Overleaf project for each of these. That way, when I downloaded (or pushed to GitHub if you are hosting everything there), the project name would already be the necessary final file name. For example, I had a project titled *Parthum_Vitae* that would produce `Parthum_Vitae.pdf`, making the use of this file direct and simple to upload to applications. Find what works best for you (but also, don't be the person that uploads a file like `My_cv_v4 (1).pdf`, just don't do it).
+The general workflow goes as follows: 
+
+- Introduce consumer theory and willingness to pay (WTP) curves
+  - This should include derivation of marginal utility and marginal rates of substitution. Setting the stage for MWTP as the ratio of two preference parameters.
+- Using the templates in this game: 
+  - Assign an annual household income to students (a budget constraint that is not correlated with their current ramen budget)
+  - Link students to the online choice experiment (I use Qualtrics, and the cleaning scripts are set up to clean data exported from Qualtrics)
+  - Export and clean data
+  - Run regressions that estimate MWTP
+   - I do this in real time in class (it takes seconds to run) as it is also a good opportunity to introduce students to statistical software (after which many will come and ask for research assistant support, neat!) 
 
 ## Vitae
 
-In this folder you will find templates for both an academic vitae (`academic.tex`) and professional/industry resume (`industry.tex`).I have left some of my information and entries in there to get you started. In general, if you have a lot of accomplishments, awesome! But if you don't, don't water down the few good things by adding the many little things just to make your CV longer. Only include things that are *important*. Committees are reading 400+ CV's and you want them to know what is *important*, not everything. 
 
-Academic CV's can be as long as they need—although for the market you will typically try to keep it to four pages (two pieces of paper) so committees can manage all of these things. Remember, your goal is to make the committee want to interview you, not to show them how many pieces of paper you can make them print (unless that's the job you're applying for, then go nuts).
-
-Professional resumes are *typically* two pages (one piece of paper). Many people will tell you to keep it to one page, and that's fine, too. The general motivation behind keeping it to one page (one side of one piece of paper) is that a hiring manager might not even look beyond the first page. But IMO, that's their fault for not being more interested in doing their job well.
-
-Again, find what works for you. 
 
 ## Statements
 
-In this folder you will find three templates. They all use the same formatting, but I have included all three to share the items and information that I chose to include in each. The text should be personal to *you*. You will probably rewrite these a dozen times until you are happy with how they read. The folder contains the temlpate for a research statement (`Research_Statement.tex`), teaching statement (`Teaching_Statement.tex`), and a diversity statement (`Diversity_Statement.tex`). 
 
-Many institutions only request the first two. Some institutions only provide a spot for one general statement. In the case of the latter, I would group all three statements together and submit one statement file that included all three. Do what you think is appropriate and what works best for you.
 
 ## Cover Letter
 
