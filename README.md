@@ -13,15 +13,18 @@ The general workflow goes as follows:
 - Introduce consumer theory and willingness to pay (WTP) curves
   - This should include derivation of marginal utility and marginal rates of substitution. Setting the stage for MWTP as the ratio of two preference parameters: <img src="https://latex.codecogs.com/gif.latex?MU_{x}/MU_{\$}" /> 
 - Using the templates in this game: 
-  - Assign an annual household income to students (a budget constraint that is not correlated with their current ramen budget)
+  - Randomly sssign an annual household income to students (a budget constraint that is not correlated with their current ramen budget)
   - Link students to the online choice experiment (I use Qualtrics, and the cleaning scripts are set up to clean data exported from Qualtrics)
   - Export and clean data
   - Run regressions that estimate MWTP
    - I do this in real time in class (it takes seconds to run) as it is also a good opportunity to introduce students to statistical software (after which many will come and ask for research assistant support, neat!) 
 
-## Vitae
+## Generate Incomes 
 
+This is done using the Stata script `1_generate_incomes.do`. Depending on which platform you use for your class (Blackboard, etc.), you will need to import your roster differently. I have provided an example roster `store\student_roster.xlsx`. This is a typical roster exported from Blackboard, but adjust as needed to your input data. This script randomly assigns incomes to students using a modified beta distribution (trying to mimic real-world income distributions, which makes for a fun side conversation). Some students are rich, some are poor. Their choices (and subsequent WTP) should reflect this. The script also generates the necessary contact information (email) and external data (income) that will be read by Qualtrics. 
 
+- Input: `student_roster.xlsx`
+- Output: `student_incomes.xlsx`
 
 ## Statements
 
