@@ -48,18 +48,14 @@ In the document `2_survey_questions.docx` I have provided text that you can copy
 
 There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim%20B\succsim%20C" />. The bundles are not strictly dominated by any other and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say something along the lines of "seven student's chocies were not consistent with preferences exhibiting the property of transitivity."
 
+Moreover: 
+  -Preference bundle <img src="https://latex.codecogs.com/gif.latex?A="/> Scenario A on Choice Card 1 and Scenario B on Choice Card 2
+  -Preference bundle <img src="https://latex.codecogs.com/gif.latex?B="/> Scenario B on Choice Card 1 and Scenario A on Choice Card 4
+  -Preference bundle <img src="https://latex.codecogs.com/gif.latex?C="/> Scenario A on Choice Card 2 and Scenario B on Choice Card 4
+
  ### Strictly Dominated Alternatives
 
 Choice card number 3 includes the choice between scenario A and scenario B, where scenario B is strictly dominated by scenario A. It is perfectly rational for a student to choose "No Change" but the only policy scenario that would be rational is "Scenario A" as it includes attributes that are all more improved at a lower cost than "Scenario B". 
-
-Moreover: 
-
-Preference bundle <img src="https://latex.codecogs.com/gif.latex?A="/> Scenario A on Choice Card 1 and Scenario B on Choice Card 2
-
-Preference bundle <img src="https://latex.codecogs.com/gif.latex?B="/> Scenario B on Choice Card 1 and Scenario A on Choice Card 4
-
-Preference bundle <img src="https://latex.codecogs.com/gif.latex?C="/> Scenario A on Choice Card 2 and Scenario B on Choice Card 4
-
 
 ## License
 
