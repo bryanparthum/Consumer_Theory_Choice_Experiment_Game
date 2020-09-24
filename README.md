@@ -35,7 +35,7 @@ Generating annual household incomes for your students provides a budget constrai
   - Input: `student_roster.xlsx`
   - Output: `student_incomes.csv`
   
-This script randomly assigns incomes to students using a modified beta distribution (trying to mimic real-world income distributions, which makes for a fun side conversation about how income is not randomly assigned in the real world). The income assignment will result in some students being really rich, and other being really poor (it is also fun to have them guess the moments of income distribution). Their choices (and subsequent WTP) should reflect this. The script also generates the necessary contact information (email) and external data (income) that will be read by Qualtrics. 
+This script randomly assigns incomes to students using a modified beta distribution (trying to mimic real-world income distributions, which makes for a fun side conversation about how income is not randomly assigned in the real world). The income assignment will result in some students being really rich, and other students being really poor (it is also fun to have them guess the moments of income distribution before sharing in class). Their choices (and subsequent WTP) should reflect this. The script also generates the necessary contact information (email) and external data (income) that will be read by Qualtrics. 
 
 ## The Online Choice Experiement
 
