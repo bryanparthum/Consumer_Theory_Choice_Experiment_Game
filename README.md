@@ -23,8 +23,8 @@ The general workflow goes as follows:
 - Using the templates in this game: 
   - Randomly assign an annual household income to students
   - Link students to the online choice experiment (I use Qualtrics, but any online survey platform will work. However, the generating and cleaning scripts provided here are set up to integrate into Qualtrics)
-  - Export and clean data
-  - Run regressions that estimate MWTP (and plot)
+  - Export the responses from Qualtrics and prepare the data for in-class analysis
+  - Run regressions that estimate MWTP and plot demand curves
     - I do this in real time in class (it takes seconds to run) as it is also a good opportunity to introduce students to statistical software (after which many will come and ask for research assistantships, neat!) 
 
 ## Generate Student Incomes 
