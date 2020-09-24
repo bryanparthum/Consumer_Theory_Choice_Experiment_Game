@@ -10,7 +10,7 @@ Using tired examples of goods that people can purchase at a store (or hypothetic
 
 ## Learning Topics
 
-1. Consumer theory: choices, preferences, transitivity
+1. Consumer theory: choices, preferences, axioms: complete, transitive, continuous, non-satiation)
 2. Marginal utility and marginal rates of substitution
 4. Demand curves and WTP distributions across populations
 
