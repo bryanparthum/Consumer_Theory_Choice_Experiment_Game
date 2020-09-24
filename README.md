@@ -8,7 +8,7 @@ This repo contains some templates for creating and executing a discrete choice e
 
 Using tired examples of goods that they can purchase at a store does a pretty poor job of mapping preferences to demand. The price of a soda from the store is just the price of the soda—if a person wants a soda at a given price, they will buy it (put yourself in the shoes of the student, preferences are still pretty foreign and closely related to having or not having money for something). Having students trace a demand curve for this type of "market" good is pretty boring. To abstract away from retail prices (where people simply face a given price) I like to introducing the concept of "nonmarket" goods (i.e. things you cannot buy at the store). Cue the discrete choice experiment! 
 
-## Learning Outcomes
+## Learning Topics
 
 1. Consumer theory: choices, preferences, transitivity
 2. Marginal utility and marginal rates of substitution
