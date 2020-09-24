@@ -51,7 +51,7 @@ In the document `2_survey_questions.docx` I have provided text that you can copy
 
 ### Transitivity
 
-There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim%20B\succsim%20C" />. These particular bundles are not strictly dominated by other bundles and any combination of preference relations could be perfectly rational. However, we can test the students choices against the weak axiom of revealed preferences. This doesn't really matter other than to say something along the lines of "seven student's chocies were not consistent with preferences exhibiting the property of transitivity."
+There are three scenarios in the survey that are the same across choice cards. This allows us to rank preferences such that <img src="https://latex.codecogs.com/gif.latex?A\succsim%20B\succsim%20C" />. These particular bundles are not strictly dominated by other bundles and any combination of preference relations could be perfectly rational. However, we can test the students' choices against the weak axiom of revealed preferences. This doesn't really matter other than to say something along the lines of "seven student's chocies were not consistent with preferences exhibiting the property of transitivity."
 
 Moreover: 
 
