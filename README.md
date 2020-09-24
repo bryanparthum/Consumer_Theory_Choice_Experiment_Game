@@ -69,7 +69,7 @@ The way this is structured will also allow us to explore how preferences vary wi
 
 ## Analyze
 
-Now that you have all this class-specific (important for connecting the lesson with your students), what are you going to do with it!? Same thing we always do, run a regression, yay! First we need to export the data from Qualtrics (done online) and prepare it for the in-class analysis using the provided cleaning script. 
+Now that you have all this class-specific data (important for connecting your students to the lesson), what are you going to do with it!? Same thing we always do, run a regression, yay! First we need to export the data from Qualtrics (done online) and prepare it for the in-class analysis using the provided cleaning script. 
 
 - Script: `3_clean_qualtrics_data.do`
   - Input: `qualtrics_data.csv`
