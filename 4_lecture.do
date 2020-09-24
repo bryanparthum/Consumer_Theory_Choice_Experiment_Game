@@ -135,21 +135,21 @@ twoway 	(area y00 x00, color(blue%30)) ///
 ** PLOT DEMAND CURVE FOR FISH
 gsort -wtp_fish
 gen q_fish = _n
-line wtp_fish q_fish if wtp_fish>0, xti("Quantity (# of Fish)") yti("Price ($)") ti("Willingness to Pay for Fish")
+line wtp_fish q_fish if wtp_fish>0, xti("Quantity (# of Fish)") yti("Price ($)") ti("Classroom Demand for Fish")
 
 ** PLOT DEMAND CURVE FOR BIRDS
 gsort -wtp_birds
 gen q_birds = _n
-line wtp_birds q_birds if wtp_birds>0, xti("Quantity (# of Birds)") yti("Price ($)") ti("Willingness to Pay for Birds")
+line wtp_birds q_birds if wtp_birds>0, xti("Quantity (# of Birds)") yti("Price ($)") ti("Classroom Demand for Birds")
 
 ** PLOT DEMAND CURVE FOR SWIMMING IN THE RIVER
 gsort -wtp_swim
 gen q_swim = _n
-line wtp_swim q_swim if wtp_swim>0, xti("Quantity (# of Donations)") yti("Price ($)") ti("Willingness to Pay to Swim in the River")
+line wtp_swim q_swim if wtp_swim>0, xti("Quantity (# of Donations)") yti("Price ($)") ti("Classroom Demand to Swim in the River")
 
 ** PLOT DEMAND CURVE FOR DRINKING THE RIVER
 gsort -wtp_drink
 gen q_drink = _n
-line wtp_drink q_drink if wtp_drink>0, xti("Quantity (# of Donations)") yti("Price ($)") ti("Willingness to Pay to Drink the River")
+line wtp_drink q_drink if wtp_drink>0, xti("Quantity (# of Donations)") yti("Price ($)") ti("Classroom Demand to Drink the River")
 		
 ** END OF SCRIPT. Have a nice day! 
