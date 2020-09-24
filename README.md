@@ -4,9 +4,9 @@
 
 ## Overview
 
-This repo contains some templates for creating and executing a discrete choice experiment as a tool for teaching consumer theory. During the first couple of weeks in a typical Intermediate Microeconomics course students are introduced to the concepts of consumer choice and preferences. Leaving students asking: "but how do these concepts relate to a demand curve?"
+This repo contains some templates for creating and executing a discrete choice experiment as a tool for teaching consumer theory. During the first couple of weeks in a typical Intermediate Microeconomics course, students are introduced to the concepts of consumer choice and preferences. Leaving students asking: "but how do these concepts relate to a demand curve?"
 
-Using tired examples of goods that they can purchase at a store does a pretty poor job of mapping preferences to demand. The price of a soda from the store is just the price of the soda—if a person wants a soda at a given price, they will buy it (put yourself in the shoes of the student, preferences are still pretty foreign and closely related to having or not having money for something). Having students trace a demand curve for this type of "market" good is not only boring but it's also not likely to turn on any lightbulbs. To abstract away from retail prices (where people simply face a given price) I like to introduce the concept of "nonmarket" goods (i.e. things you cannot buy at the store). Cue the discrete choice experiment! 
+Using tired examples of goods that they can purchase at a store does a pretty poor job of mapping preferences to demand. The price of a soda from the store is just the price of the soda—if a person wants a soda at a given price, they will buy it (put yourself in the shoes of the student, preferences are still pretty foreign at this point and students tend to relate preferences to having or not having money for something). Asking students to trace a demand curve for this type of "market" good is not only boring, but it's also not likely to turn on any lightbulbs. To abstract away from retail prices (where people simply face a given price) I like to introduce the concept of "nonmarket" goods (i.e. things you cannot buy at the store). Cue the discrete choice experiment! 
 
 ## Learning Topics
 
