@@ -65,7 +65,7 @@ Choice card number 3 includes the choice between Scenario A and Scenario B, wher
 
 ### Other Fun Built-ins
 
-The way this is structured will also allow us to explore how preferences vary with personal characteristics (preference heterogeneity). The post-survey questions allow for an interaction between the choice attributes and income, industry, and recreation behavior. Choice card number 5 also has a scenario that is extremely expensive but the quality of the river is such that you can drink it. It is fun to look at how much students are WTP for drinking the river (and if their desire to drink the river is correlated with with income or other personal characteristics).  
+The way this is structured will also allow us to explore how preferences vary with personal characteristics (preference heterogeneity). The post-survey questions allow for an interaction between the choice attributes and income, industry, and recreation behavior. Choice card number 5 also has a scenario that is extremely expensive but the quality of the river is such that you can drink it. It is fun to look at how much students are WTP to drink the river (and if their desire to drink the river is correlated with with income or other personal characteristics).  
 
 ## Analyze
 
